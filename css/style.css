@@ -351,6 +351,10 @@ body {
 }
 
 /* contacts */
+.contacts {
+   border-bottom: 1px solid #DADADA
+}
+
 .contacts-address {
     font-style: normal;
 }
@@ -398,6 +402,89 @@ body {
     margin-bottom: 30px;
     font-size: 17px;
     line-height: 180%;
+}
+
+/* join-us */
+.join-us {
+    border-bottom: 1px solid #dadada;
+}
+
+.join-us-title {
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.join-us-descr {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.form-input,
+.form-select {
+    border: 1px solid #DADADA;
+    border-radius: 50px;    
+    box-sizing: border-box;
+    padding: 15px 28px;
+    width: 251px;
+    height: 60px;
+}
+
+.form-textarea {
+    border: 1px solid #DADADA;
+    border-radius: 20px;    
+    box-sizing: border-box;
+    resize: none;
+    padding: 15px 28px;
+    width: 100%;
+    height: 100%;
+}
+
+.form-top {
+    justify-content: space-between;
+    margin-bottom: 19px;
+}
+
+.form-left,
+.form-right {
+    width: 49.5%;
+}
+
+.form-left {
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+.form-bottom {
+    justify-content: flex-end;
+}
+
+.form-wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-join {
+    min-width: 230px;
+    line-height: 20px;
+    border-radius: 50px;
+    padding: 20px 67px;
+    margin-bottom: 9px;
+}
+
+.form-checkbox {
+    font-size: 12px;
+    line-height: 16px;
+    color: #787878;
+}
+
+.form-agreement {
+    text-decoration-line: underline;
+    color: #3172B9;
 }
 
 /* footer */
